@@ -85,7 +85,7 @@ function addTransactionHistory(amount, cardTitle, bgColorClass) {
 
 // add event listeners for all 'make a donation' buttons. and as a arqument i use my all desire id and sent all card title and transaction history bg color for avoid repeated code, make this code clean and readable. 
 document.getElementById('nDonateBtn').addEventListener('click', function () {
-    donationProcesess('mainBalance', 'nbalanceBtn', 'ninputAmount', 'Support Noakhali Flood Relief Efforts, Bangladesh', 'bg-lime-50');
+    donationProcesess('mainBalance', 'nbalanceBtn', 'ninputAmount', 'Support Noakhali Flood Relief Efforts, Bangladesh', 'bg-lime-100');
 });
 
 document.getElementById('fDonateBtn').addEventListener('click', function () {
@@ -93,7 +93,10 @@ document.getElementById('fDonateBtn').addEventListener('click', function () {
 });
 
 document.getElementById('qDonateBtn').addEventListener('click', function () {
-    donationProcesess('mainBalance', 'qBalanceBtn', 'qinputAmount', 'Support for the Injured in the Quota Movement', 'bg-red-50');
+    donationProcesess('mainBalance', 'qBalanceBtn', 'qinputAmount', 'Support for the Injured in the Quota Movement', 'bg-red-100');
+});
+document.getElementById('ioDonateBtn').addEventListener('click', function () {
+    donationProcesess('mainBalance', 'ioBalanceBtn', 'ioinputAmount', 'Caring for the Innocent: Support Palestinian Youth', 'bg-blue-100');
 });
 document.getElementById('pDonateBtn').addEventListener('click', function () {
     donationProcesess('mainBalance', 'pBalanceBtn', 'pinputAmount', 'Caring for the Innocent: Support Palestinian Youth', 'bg-purple-100');
